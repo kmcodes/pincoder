@@ -33,7 +33,6 @@ with open('output_csv.csv','w') as out_file:
                 line_output.append(a)
                 row_output.append(line_output)
         writer.writerows(row_output)
-# print (row_output)
 
                 
 
