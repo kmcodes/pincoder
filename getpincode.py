@@ -12,10 +12,6 @@ def get_pin_code(lat=None, longitude=None):
         postcodes = ""
     return postcodes
 
-lat=19.07283
-longitude=72.88261
-# print(get_pin_code(lat=19.07283, longitude=72.88261))
-
 output_list = []
 with open('output_csv.csv','w') as out_file:
     writer = csv.writer(out_file)
